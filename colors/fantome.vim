@@ -12,12 +12,15 @@ let s:gray1     = '#000000'
 let s:gray2     = '#131313'
 let s:gray3     = '#474646'
 let s:gray4     = '#6a6c6c'
+let s:gray41    = '#606060'
 let s:gray5     = '#b7bdc0'
 let s:red       = '#dd7186'
 let s:green     = '#87bb7c'
 let s:yellow    = '#d5b875'
 let s:blue      = '#70ace5'
 let s:purple    = '#a48add'
+let s:purple2   = '#6b4ab4'
+let s:purple3   = '#7c7cff'
 let s:cyan      = '#7fd8d8'
 let s:orange    = '#d7956e'
 let s:indigo    = '#7681de'
@@ -84,7 +87,7 @@ call s:HL('Comment',                        s:gray4,    '',         'none')
 call s:HL('Constant',                       s:orange,   '',         '')
 call s:HL('String',                         s:green,    '',         '')
 call s:HL('Character',                      s:green,    '',         '')
-call s:HL('Identifier',                     s:red,      '',         'none')
+call s:HL('Identifier',                     s:gray5,      '',         'none')
 call s:HL('Function',                       s:blue,     '',         '')
 call s:HL('Statement',                      s:purple,   '',         'none')
 call s:HL('Operator',                       s:cyan,     '',         '')
@@ -93,7 +96,7 @@ call s:HL('Include',                        s:blue,     '',         '')
 call s:HL('Define',                         s:purple,   '',         'none')
 call s:HL('Macro',                          s:purple,   '',         '')
 call s:HL('Type',                           s:red,      '',         'none')
-call s:HL('Structure',                      s:cyan,     '',         '')
+call s:HL('Structure',                      s:red,     '',         '')
 call s:HL('Special',                        s:indigo,   '',         '')
 call s:HL('Underlined',                     s:blue,     '',         'none')
 call s:HL('Error',                          s:red,      s:gray1,    'bold')
